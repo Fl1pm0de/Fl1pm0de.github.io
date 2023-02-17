@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photos</title>
+	<link id="csslink" rel="stylesheet" type="text/css" href="main.css">
+	<script>
+	function toggleCSS(){
+		var currentCSS = document.getElementById('csslink')            
+		if (currentCSS.getAttribute('href') == 'alternate.css'){
+	        currentCSS.setAttribute('href', 'main.css');      
+		}else{
+			currentCSS.setAttribute('href', 'alternate.css');      
+		}
+	}
+	</script>
+</head>
+<body>
+	<div id="photos">
+	<h2>Photo Gallery</h2>
+	<div>
+	<img src="Photos/Army_photo.jpg" alt="Army photo 1">
+	<img src="Photos/Army_photo_2.jpg" alt="Army photo 2">
+	<img src="Photos/Army_photo_3.jpg" alt="Army photo 3">
+	</div>
+	<div>
+	<img id="flu" src="Photos/flu.jpg" alt="fluminense">
+	<img src="Photos/nicholas.jpg" alt="Photo of nicholas">
+	</div>
+	</div>
+</body>
+<footer>
+	<div id="footer">
+	<button id="Home" onclick="location.href='index.html'">Home</button> 
+	<button id="csslink" onclick="toggleCSS()">Switch Style</button>
+	<p>
+	Website powered by GitHub&copy.
+	</p>
+	</div>
+</footer>
+</html>

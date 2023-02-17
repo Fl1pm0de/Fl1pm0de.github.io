@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About me</title>
+	<link id="csslink" rel="stylesheet" type="text/css" href="main.css">
+	<script>
+	function toggleCSS(){
+		var currentCSS = document.getElementById('csslink')            
+		if (currentCSS.getAttribute('href') == 'alternate.css'){
+	        currentCSS.setAttribute('href', 'main.css');      
+		}else{
+			currentCSS.setAttribute('href', 'alternate.css');      
+		}
+	}
+	</script>
+	
+</head>
+<body>
+	<header>
+	<h1>Welcome to About me</h1>
+	</header>
+	<div class="Bio">
+		<div>
+			<img src="Photos/headshot.jpg" alt="Headshot of Felipe">
+			<p id="high">
+			My name is Felipe Silva. I ws born in Rio de Janeiro, Brazil. I am a fan of the football club <span>Fluminense</span>. I lived in Rio for 8 years before moving to the United States.
+			I first moved to New York City and lived in Astoria, Queens. I enjoyed my time in New York but I don't really enjoy the winter, I prefer the summer. I got to see the Statue of Liberty and Times Square while i lived there.
+			I moved to Florida when I was 12 years old and I love it here. My favorite time of the year is summer. My two favorite hobbies are going to the beach and playing video games. I spent most of my formative years here in Tampa, FL.
+			I attended many of the schools here to include Sligh Junior High school, Greco Junior High school, Adams Junior High school, and Tampa Bay Technical High School. I was a swimmer in high school and I was also in the marching band.
+			After High school I was not ready for college, I did not prepare to my fullest ability and would ultimately fail in my endeavors. 
+			</p>
+		</div>
+		<div>
+			<img src="Photos/army_logo.png" alt="US Army logo">
+			<p id="army">
+			I chose to join the military, specifically the United States Army. When I joined the army I chose to be a biomedical technician at the time the military occupational specialty(MOS) was 91A. I went on to complete basic combat training at
+			Fort Leonardwood, Missouri. After completing basic training I was assigned to Foxtrot company 187th Med at Whichita Falls, Texas. I spent about 1 year training to be a biomedical technician for the army. I learned basic and advanced electronics
+			to complex systems like radiological systems and ventilation systems. My first duty station was Fort Hood, Texas where I spent most of my military career and whilst with Echo company 4th Forward Support Battalion, I deployed to Kuwait and Iraq in 2003.
+			In 2005 I made the decision to leave the military and continue my career as a biomedical technician.
+			</p>
+		</div>
+		<div>
+			<img src="Photos/oneblood_logo.jpg" alt="One Blood logo">
+			<p id="oneblood">
+			I spent a short time as a phlebotomist working what was then Florida Blood Services which is now One Blood, before continuing to further my career as a biomedical technician. I was able to use many of the skills I learned in my time in the military,
+			specifically the skills I learned being a part of a medical company in the army to apply myself in the medical industry.
+			</p>
+		</div>
+		<div>
+			<img src="Photos/tgh.jpg" alt="Tampa General Hospital logo">
+			<p id="tgh">
+			In 2006 I attained a position at Tampa General Hospital as a Biomedical Electronic Technician in one of Tampa Bay's best hospitals and Level 1 trauma center. I learned way more than I could have imagined during my 10 years at TGH. I went on to get many certifications.
+			and I specilized in Anesthesia and Ventilation. I enjeyed my time at TGH but I knew that the industry was changing and required me to pursue more education. I decided to journey to college in 2012 to pursue a different career path. 
+			I attented Hillsborough Community College and University of South Florida.
+		</p>
+		</div>
+	</div>	
+</body>
+<footer>
+	<div id="footer">
+	<button id="Photos" onclick="location.href='photos.html'">Photo Gallery</button>
+	<button id="csslink" onclick="toggleCSS()">Switch Style</button>
+	<p>
+	Website powered by GitHub&copy.
+	</p>
+	</div>
+</footer>
+</html>

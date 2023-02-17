@@ -1,0 +1,31 @@
+:root{
+	background-image: url("Photos/chromosome.jpg");
+	background-size: 100%;
+}
+h1{
+	background-color: red;
+	font-size: 36px;
+	text-align: right;
+	padding: 10px;
+}
+h2{
+	color: red;
+}
+img{
+	width: 175px;
+	padding: 10px;
+	border: beige;
+	border-color: beige;
+}
+img#flu{
+	width: 300px;
+}
+.Bio > div{
+	color: white;
+}
+#footer{
+	color: red;
+}
+button:hover{
+	background-color: red;
+}
